@@ -1,10 +1,15 @@
 import React from 'react';
-import HeroSlider from './components/HeroSlider';
+
+// import components
+import Hero from './components/Hero';
+import Header from './components/Header';
 
 const App = () => {
   return (
-    <div className='w-full max-w-[1440px] mx-auto bg-white'>
-      <HeroSlider />
+    <div className='w-full max-w-[1440px] mx-auto bg-orange-quaternary relative'>
+      <Header />
+      <Hero />
+      <div className='h-[3000px]'></div>
     </div>
   );
 };

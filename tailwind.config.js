@@ -16,26 +16,26 @@ module.exports = {
       lg: '1024px',
       xl: '1280px',
     },
-    extend: {
-      colors: {
-        body: '#FFFAF5',
-        blue: {
-          DEFAULT: '#000958',
-          secondary: '#67698B',
-        },
-        orange: {
-          DEFAULT: '#FF5F33',
-          secondary: '#FFCE9D',
-          tertiary: '#FFF0E1',
-        },
-        yellow: {
-          DEFAULT: '#FFDA54',
-          secondary: '#FFF3D2',
-        },
-        white: '#fff',
-        pink: 'pink',
+    colors: {
+      body: '#E5E5E5',
+      blue: {
+        DEFAULT: '#000958',
+        secondary: '#67698B',
       },
+      orange: {
+        DEFAULT: '#FF5F33',
+        secondary: '#FFCE9D',
+        tertiary: '#FFF0E1',
+        quaternary: '#FFFAF5',
+      },
+      yellow: {
+        DEFAULT: '#FFDA54',
+        secondary: '#FFF3D2',
+      },
+      white: '#fff',
+      pink: 'pink',
     },
+    extend: {},
   },
   plugins: [],
 };

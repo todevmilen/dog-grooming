@@ -34,9 +34,16 @@ const HeroSlider = () => {
           const { title, subtitle, image, buttonText } = slide;
           return (
             <SwiperSlide key={index}>
-              <div className='flex'>
-                <div>text</div>
-                <div>image</div>
+              <div className='container mx-auto'>
+                <div className='flex flex-col justify-between items-center lg:flex-row'>
+                  <div className='flex-1'>
+                    <h1>{title}</h1>
+                    <p>{subtitle}</p>
+                  </div>
+                  <div className='flex-1 flex justify-center'>
+                    <img src={image.type} alt='' />
+                  </div>
+                </div>
               </div>
             </SwiperSlide>
           );
