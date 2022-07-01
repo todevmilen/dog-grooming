@@ -48,7 +48,7 @@ const HeroSlider = () => {
                     </button>
                   </div>
                   <div className='flex-1 flex justify-center'>
-                    <img src={image.type} alt='' />
+                    <img className='h-96 lg:h-auto' src={image.type} alt='' />
                   </div>
                 </div>
               </div>
