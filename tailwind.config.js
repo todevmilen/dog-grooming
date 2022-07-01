@@ -2,12 +2,12 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Saira',
+      primary: 'Poppins',
     },
     container: {
       padding: {
         DEFAULT: '1.5rem',
-        // lg: '3rem',
+        lg: '3rem',
       },
     },
     screens: {
@@ -23,10 +23,11 @@ module.exports = {
         secondary: '#67698B',
       },
       orange: {
-        DEFAULT: '#FF5F33',
+        DEFAULT: '#FF4917',
         secondary: '#FFCE9D',
         tertiary: '#FFF0E1',
         quaternary: '#FFFAF5',
+        hover: '#FB3D08',
       },
       yellow: {
         DEFAULT: '#FFDA54',

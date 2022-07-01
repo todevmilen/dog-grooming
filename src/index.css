@@ -4,6 +4,13 @@
 
 @layer base {
   body {
-    @apply bg-body;
+    @apply bg-body font-primary text-blue-secondary;
+  }
+  .btn,
+  .input-control {
+    @apply h-16 rounded-full;
+  }
+  .btn {
+    @apply px-10 text-[15px] font-medium bg-orange hover:bg-orange-hover outline-none transition;
   }
 }

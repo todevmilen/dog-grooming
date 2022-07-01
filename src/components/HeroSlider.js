@@ -6,11 +6,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
-// import './styles.css';
+import '../swiper.css';
 
 // import required modules
-import { Pagination, Navigation } from 'swiper';
+import { Pagination, Navigation, Autoplay } from 'swiper';
 
 // import data
 import { heroSlider } from '../data';
@@ -19,26 +18,34 @@ const HeroSlider = () => {
   return (
     <>
       <Swiper
+        modules={[Pagination, Navigation, Autoplay]}
         slidesPerView={1}
-        spaceBetween={30}
+        // spaceBetween={30}
+        autoplay={true}
         loop={true}
         pagination={{
           clickable: true,
         }}
         navigation={true}
-        modules={[Pagination, Navigation]}
-        className='mySwiper'
+        className='heroSlider'
       >
         {heroSlider.map((slide, index) => {
           // destructure slide
           const { title, subtitle, image, buttonText } = slide;
           return (
-            <SwiperSlide key={index}>
-              <div className='container mx-auto'>
+            <SwiperSlide className='py-12' key={index}>
+              <div className='container mx-auto text-center lg:text-left'>
                 <div className='flex flex-col justify-between items-center lg:flex-row'>
                   <div className='flex-1'>
-                    <h1>{title}</h1>
-                    <p>{subtitle}</p>
+                    <h1 className='text-blue text-[36px] leading-tight lg:text-[72px] lg:leading-[98px] font-extrabold mb-4'>
+                      {title}
+                    </h1>
+                    <p className='text-base lg:text-[18px] lg:leading-8 max-w-[540px] mb-8'>
+                      {subtitle}
+                    </p>
+                    <button className='btn bg-orange text-white mb-8 lg:mb-0'>
+                      {buttonText}
+                    </button>
                   </div>
                   <div className='flex-1 flex justify-center'>
                     <img src={image.type} alt='' />
