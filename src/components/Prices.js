@@ -27,12 +27,14 @@ const Prices = () => {
         <h2 className='h2 mb-20 text-center'>How big your dog is?</h2>
         {/* bundles */}
         <div className='grid grid-cols-4 gap-4 lg:gap-[30px]'>
-          {bundleData.map((item, idx) => {
+          {bundleData.map((bundle, idx) => {
+            // destructure bundle
+            const { name, image, dogCategory } = bundle;
             return (
               <div
                 onClick={() => {
                   {
-                    getBundle(item.name);
+                    getBundle(name);
                     setIndex(idx);
                   }
                 }}
@@ -40,10 +42,10 @@ const Prices = () => {
                 className='cursor-pointer text-center'
               >
                 <div className='mb-2 lg:mb-8 hover:scale-105 transition-all duration-300'>
-                  <img className='w-full' src={item.image.type} alt='' />
+                  <img className='w-full' src={image.type} alt='' />
                 </div>
                 <h3 className='lg:text-2xl capitalize font-semibold text-blue mb-2'>
-                  {item.name}
+                  {name}
                 </h3>
                 <div
                   className={`${
@@ -52,7 +54,7 @@ const Prices = () => {
                       : 'border-b-4 border-transparent'
                   } pb-4 mb-12 capitalize hidden lg:block`}
                 >
-                  {item.dogCategory}
+                  {dogCategory}
                 </div>
               </div>
             );
