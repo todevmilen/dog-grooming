@@ -31,19 +31,17 @@ const Prices = () => {
             return (
               <div
                 onClick={() => {
-                  getBundle(item.name);
+                  {
+                    getBundle(item.name);
+                    setIndex(idx);
+                  }
                 }}
-                className='bg-orange-tertiary'
+                className={`${
+                  index === idx ? 'bg-orange' : 'bg-orange-secondary'
+                }`}
                 key={idx}
               >
-                <div
-                  onClick={() => setIndex(idx)}
-                  className={`${
-                    index === idx ? 'bg-orange' : 'bg-orange-secondary'
-                  }`}
-                >
-                  {item.name}
-                </div>
+                <div>{item.name}</div>
               </div>
             );
           })}
