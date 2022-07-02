@@ -26,7 +26,7 @@ const Prices = () => {
       <div className='container mx-auto'>
         <h2 className='h2 mb-20 text-center'>How big your dog is?</h2>
         {/* bundles */}
-        <div className='grid lg:grid-cols-4 gap-[30px]'>
+        <div className='grid grid-cols-4 gap-4 lg:gap-[30px]'>
           {bundleData.map((item, idx) => {
             return (
               <div
@@ -39,10 +39,10 @@ const Prices = () => {
                 key={idx}
                 className='cursor-pointer text-center'
               >
-                <div className='mb-8 hover:scale-105 transition-all duration-300'>
-                  <img src={item.image.type} alt='' />
+                <div className='mb-2 lg:mb-8 hover:scale-105 transition-all duration-300'>
+                  <img className='w-full' src={item.image.type} alt='' />
                 </div>
-                <h3 className='text-2xl capitalize font-semibold text-blue mb-2'>
+                <h3 className='lg:text-2xl capitalize font-semibold text-blue mb-2'>
                   {item.name}
                 </h3>
                 <div
@@ -50,7 +50,7 @@ const Prices = () => {
                     index === idx
                       ? 'border-b-4 border-orange transition-all'
                       : 'border-b-4 border-transparent'
-                  } pb-4 mb-12 capitalize`}
+                  } pb-4 mb-12 capitalize hidden lg:block`}
                 >
                   {item.dogCategory}
                 </div>
