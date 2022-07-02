@@ -39,7 +39,7 @@ const Prices = () => {
                 key={idx}
                 className='cursor-pointer text-center'
               >
-                <div className='mb-8'>
+                <div className='mb-8 hover:scale-105 transition-all duration-300'>
                   <img src={item.image.type} alt='' />
                 </div>
                 <h3 className='text-2xl capitalize font-semibold text-blue mb-2'>
@@ -50,7 +50,7 @@ const Prices = () => {
                     index === idx
                       ? 'border-b-4 border-orange transition-all'
                       : 'border-b-4 border-transparent'
-                  } pb-4 mb-12 capitalize italic`}
+                  } pb-4 mb-12 capitalize`}
                 >
                   {item.dogCategory}
                 </div>
