@@ -37,20 +37,20 @@ const Prices = () => {
                   }
                 }}
                 key={idx}
-                className='cursor-pointer'
+                className='cursor-pointer text-center'
               >
-                <div>
+                <div className='mb-8'>
                   <img src={item.image.type} alt='' />
                 </div>
-                <h3 className='text-2xl capitalize font-medium text-blue'>
+                <h3 className='text-2xl capitalize font-semibold text-blue mb-2'>
                   {item.name}
                 </h3>
                 <div
                   className={`${
                     index === idx
-                      ? 'border-b-4 border-orange'
+                      ? 'border-b-4 border-orange transition-all'
                       : 'border-b-4 border-transparent'
-                  } pb-8`}
+                  } pb-4 mb-12 capitalize italic`}
                 >
                   {item.dogCategory}
                 </div>
