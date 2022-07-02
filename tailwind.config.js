@@ -35,6 +35,7 @@ module.exports = {
       },
       white: '#fff',
       pink: 'pink',
+      transparent: 'transparent',
     },
     extend: {
       boxShadow: {

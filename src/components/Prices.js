@@ -36,12 +36,24 @@ const Prices = () => {
                     setIndex(idx);
                   }
                 }}
-                className={`${
-                  index === idx ? 'bg-orange' : 'bg-orange-secondary'
-                }`}
                 key={idx}
+                className='cursor-pointer'
               >
-                <div>{item.name}</div>
+                <div>
+                  <img src={item.image.type} alt='' />
+                </div>
+                <h3 className='text-2xl capitalize font-medium text-blue'>
+                  {item.name}
+                </h3>
+                <div
+                  className={`${
+                    index === idx
+                      ? 'border-b-4 border-orange'
+                      : 'border-b-4 border-transparent'
+                  } pb-8`}
+                >
+                  {item.dogCategory}
+                </div>
               </div>
             );
           })}

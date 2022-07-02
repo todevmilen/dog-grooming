@@ -2,6 +2,11 @@
 import HeroSlideImage1 from './assets/img/dogs/dog-slide-1.png';
 import HeroSlideImage2 from './assets/img/dogs/dog-slide-2.png';
 import HeroSlideImage3 from './assets/img/dogs/dog-slide-3.png';
+// import dog category images
+import DogCateg1 from './assets/img/dogs/dog-categ-1.png';
+import DogCateg2 from './assets/img/dogs/dog-categ-2.png';
+import DogCateg3 from './assets/img/dogs/dog-categ-3.png';
+import DogCateg4 from './assets/img/dogs/dog-categ-4.png';
 
 export const navigation = [
   {
@@ -52,6 +57,7 @@ export const heroSlider = [
 export const bundleData = [
   {
     id: 1,
+    image: <DogCateg1 />,
     name: 'small',
     dogCategory: 'small category (1 - 9 kg)',
     services: [
@@ -89,6 +95,7 @@ export const bundleData = [
   {
     id: 2,
     name: 'medium',
+    image: <DogCateg2 />,
     dogCategory: 'medium category (10 - 19 kg)',
     services: [
       {
@@ -125,6 +132,7 @@ export const bundleData = [
   {
     id: 3,
     name: 'big',
+    image: <DogCateg3 />,
     dogCategory: 'big category (20 - 29 kg)',
     services: [
       {
@@ -161,6 +169,7 @@ export const bundleData = [
   {
     id: 4,
     name: 'super',
+    image: <DogCateg4 />,
     dogCategory: 'super category (30 - 39 kg)',
     services: [
       {
