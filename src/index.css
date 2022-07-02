@@ -6,11 +6,17 @@
   body {
     @apply bg-body font-primary text-blue-secondary;
   }
+  .h2 {
+    @apply text-2xl lg:text-4xl text-blue font-bold;
+  }
   .btn,
   .input-control {
-    @apply h-16 rounded-full;
+    @apply text-[15px] h-16 rounded-full outline-none;
   }
   .btn {
-    @apply px-10 text-[15px] font-medium bg-orange hover:bg-orange-hover outline-none transition;
+    @apply px-8 font-medium text-white bg-orange hover:bg-orange-hover transition;
+  }
+  .input-control {
+    @apply w-full max-w-[514px] px-8;
   }
 }
