@@ -4,6 +4,7 @@ const Bundle = ({ bundles }) => {
   return (
     <div className='flex flex-col lg:flex-row justify-between gap-[30px]'>
       {bundles.map((bundle, index) => {
+        console.log(bundle);
         // destructure bundle
         const { name, price, list } = bundle;
         return (

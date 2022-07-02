@@ -44,7 +44,7 @@ const Prices = () => {
                 <div className='mb-2 lg:mb-8 hover:scale-105 transition-all duration-300'>
                   <img className='w-full' src={image.type} alt='' />
                 </div>
-                <h3 className='lg:text-2xl capitalize font-semibold text-blue mb-2'>
+                <h3 className='lg:text-2xl capitalize font-semibold text-blue mb-8'>
                   {name}
                 </h3>
                 <div
