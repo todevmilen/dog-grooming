@@ -36,7 +36,11 @@ module.exports = {
       white: '#fff',
       pink: 'pink',
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        primary: '0px 4px 40px rgba(0, 0, 0, 0.03)',
+      },
+    },
   },
   plugins: [],
 };

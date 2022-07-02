@@ -49,8 +49,9 @@ export const heroSlider = [
   },
 ];
 
-export const bundles = [
+export const bundleData = [
   {
+    id: 1,
     name: 'small',
     dogCategory: 'small category (1 - 9 kg)',
     services: [
@@ -86,6 +87,7 @@ export const bundles = [
     ],
   },
   {
+    id: 2,
     name: 'medium',
     dogCategory: 'medium category (10 - 19 kg)',
     services: [
@@ -121,6 +123,7 @@ export const bundles = [
     ],
   },
   {
+    id: 3,
     name: 'big',
     dogCategory: 'big category (20 - 29 kg)',
     services: [
@@ -156,6 +159,7 @@ export const bundles = [
     ],
   },
   {
+    id: 4,
     name: 'super',
     dogCategory: 'super category (30 - 39 kg)',
     services: [
