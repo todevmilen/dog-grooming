@@ -32,7 +32,7 @@ const HeroSlider = () => {
           // destructure slide
           const { title, subtitle, image, buttonText } = slide;
           return (
-            <SwiperSlide className='py-12' key={index}>
+            <SwiperSlide className='py-12 lg:py-16' key={index}>
               <div className='container mx-auto text-center lg:text-left'>
                 <div className='flex flex-col justify-between items-center lg:flex-row'>
                   <div className='flex-1'>
