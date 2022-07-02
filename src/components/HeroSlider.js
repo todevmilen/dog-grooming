@@ -19,12 +19,11 @@ const HeroSlider = () => {
     <>
       <Swiper
         modules={[Pagination, Navigation, Autoplay]}
-        slidesPerView={1}
-        // spaceBetween={30}
         autoplay={true}
         loop={true}
         pagination={{
           clickable: true,
+          dynamicBullets: true,
         }}
         navigation={true}
         className='heroSlider'

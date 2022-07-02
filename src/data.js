@@ -3,6 +3,25 @@ import HeroSlideImage1 from './assets/img/dogs/dog-slide-1.png';
 import HeroSlideImage2 from './assets/img/dogs/dog-slide-2.png';
 import HeroSlideImage3 from './assets/img/dogs/dog-slide-3.png';
 
+export const navigation = [
+  {
+    name: 'home',
+    href: '#',
+  },
+  {
+    name: 'prices',
+    href: '#',
+  },
+  {
+    name: 'get an appointment',
+    href: '#',
+  },
+  {
+    name: 'contact',
+    href: '#',
+  },
+];
+
 export const heroSlider = [
   {
     id: 1,
