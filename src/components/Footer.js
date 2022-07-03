@@ -21,7 +21,7 @@ const Footer = () => {
             {social.map((item, index) => {
               return (
                 <a href={item.href} key={index}>
-                  <div className='bg-[#FE8D71] w-10 h-10 rounded-full flex justify-center items-center'>
+                  <div className='bg-[#fe8d71a9] hover:bg-[#FE8D71] w-10 h-10 rounded-full flex justify-center items-center transition'>
                     <div className='text-2xl'>{item.icon}</div>
                   </div>
                 </a>
