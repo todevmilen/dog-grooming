@@ -7,6 +7,8 @@ import DogCateg1 from './assets/img/dogs/dog-categ-1.png';
 import DogCateg2 from './assets/img/dogs/dog-categ-2.png';
 import DogCateg3 from './assets/img/dogs/dog-categ-3.png';
 import DogCateg4 from './assets/img/dogs/dog-categ-4.png';
+// import social icons
+import { AiFillYoutube, AiFillInstagram, AiFillGithub } from 'react-icons/ai';
 
 export const navigation = [
   {
@@ -202,5 +204,20 @@ export const bundleData = [
         ],
       },
     ],
+  },
+];
+
+export const social = [
+  {
+    icon: <AiFillYoutube />,
+    href: '#',
+  },
+  {
+    icon: <AiFillInstagram />,
+    href: '#',
+  },
+  {
+    icon: <AiFillGithub />,
+    href: '#',
   },
 ];

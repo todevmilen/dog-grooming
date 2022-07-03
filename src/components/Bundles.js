@@ -16,7 +16,7 @@ const Bundle = ({ bundles }) => {
           >
             <div className='text-5xl font-bold text-blue mb-4'>${price}</div>
             <div className='capitalize mb-12 text-blue font-medium'>{name}</div>
-            <div className='flex flex-col gap-y-3'>
+            <div className='flex flex-col gap-y-4 max-w-[230px] mx-auto'>
               {list.map((item, index) => {
                 return (
                   <div className='flex items-center gap-x-3' key={index}>
