@@ -18,11 +18,11 @@ export const navigation = [
     href: '#',
   },
   {
-    name: 'get an appointment',
+    name: 'contact',
     href: '#',
   },
   {
-    name: 'contact',
+    name: 'get an appointment',
     href: '#',
   },
 ];
