@@ -10,10 +10,7 @@ const Nav = () => {
         {navigation.map((item, index) => {
           return (
             <li key={index}>
-              <a
-                className='capitalize text-blue hover:text-orange transition'
-                href='#'
-              >
+              <a className='capitalize hover:text-orange transition' href='#'>
                 {item.name}
               </a>
             </li>

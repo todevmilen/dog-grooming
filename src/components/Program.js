@@ -17,7 +17,7 @@ const Program = () => {
         </div>
       </div>
       <div className='text-sm'>
-        <div className='hidden text-blue lg:flex'>
+        <div className='hidden lg:flex'>
           Opening Hours: Mon - Sun: 10am - 6pm
         </div>
         <div className='lg:hidden text-right'>Mon - Sun: 10am - 6pm</div>
