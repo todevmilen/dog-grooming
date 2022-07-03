@@ -50,7 +50,7 @@ const Prices = () => {
                 <div
                   className={`${
                     index === idx
-                      ? 'border-b-4 border-orange transition-all after:w-5 after:h-5 after:bg-triangle after:bg-no-repeat after:block after:left-[130px] after:absolute after:-bottom-6 relative'
+                      ? 'border-b-4 border-orange transition-all after:lg:w-5 after:lg:h-5 after:lg:bg-triangle after:lg:bg-no-repeat after:lg:block after:lg:left-[130px] after:lg:absolute after:lg:-bottom-6 relative'
                       : 'border-b-4 border-transparent'
                   } pb-4 mb-12`}
                 >
