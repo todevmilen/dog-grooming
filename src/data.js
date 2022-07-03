@@ -63,12 +63,12 @@ export const bundleData = [
     services: [
       {
         name: 'smart',
-        price: 10,
+        price: 20,
         list: ['wash', 'ears cleaning', 'nail cut', 'perfumed'],
       },
       {
         name: 'premium',
-        price: 30,
+        price: 40,
         list: [
           'all smart services',
           'service 1',
@@ -79,7 +79,7 @@ export const bundleData = [
       },
       {
         name: 'royal',
-        price: 50,
+        price: 60,
         list: [
           'all premium services',
           'service 1',
@@ -100,12 +100,12 @@ export const bundleData = [
     services: [
       {
         name: 'smart',
-        price: 70,
+        price: 80,
         list: ['wash', 'ears cleaning', 'nail cut', 'perfumed'],
       },
       {
         name: 'premium',
-        price: 90,
+        price: 100,
         list: [
           'all smart services',
           'service 1',
@@ -116,7 +116,7 @@ export const bundleData = [
       },
       {
         name: 'royal',
-        price: 110,
+        price: 120,
         list: [
           'all premium services',
           'service 1',
@@ -137,12 +137,12 @@ export const bundleData = [
     services: [
       {
         name: 'smart',
-        price: 130,
+        price: 140,
         list: ['wash', 'ears cleaning', 'nail cut', 'perfumed'],
       },
       {
         name: 'premium',
-        price: 150,
+        price: 160,
         list: [
           'all smart services',
           'service 1',
@@ -153,7 +153,7 @@ export const bundleData = [
       },
       {
         name: 'royal',
-        price: 170,
+        price: 180,
         list: [
           'all premium services',
           'service 1',
@@ -174,7 +174,7 @@ export const bundleData = [
     services: [
       {
         name: 'smart',
-        price: 190,
+        price: 200,
         list: ['wash', 'ears cleaning', 'nail cut', 'perfumed'],
       },
       {
@@ -190,7 +190,7 @@ export const bundleData = [
       },
       {
         name: 'royal',
-        price: 230,
+        price: 220,
         list: [
           'all premium services',
           'service 1',
