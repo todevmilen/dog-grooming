@@ -38,6 +38,9 @@ module.exports = {
       transparent: 'transparent',
     },
     extend: {
+      backgroundImage: {
+        triangle: "url('/src/assets/img/triangle.svg')",
+      },
       boxShadow: {
         primary: '0px 4px 40px rgba(0, 0, 0, 0.03)',
       },

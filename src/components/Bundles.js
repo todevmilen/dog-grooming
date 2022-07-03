@@ -5,13 +5,13 @@ import { BsCheckCircleFill } from 'react-icons/bs';
 
 const Bundle = ({ bundles }) => {
   return (
-    <div className='flex flex-col lg:flex-row justify-between gap-[30px]'>
+    <div className='flex flex-col md:flex-row justify-between gap-[30px]'>
       {bundles.map((bundle, index) => {
         // destructure bundle
         const { name, price, list } = bundle;
         return (
           <div
-            className='w-full max-w-1/3 bg-white shadow-primary text-center h-[560px] rounded-[60px] py-12 px-8'
+            className='w-full lg:max-w-1/3 bg-white shadow-primary text-center h-[560px] rounded-[60px] py-12 px-8'
             key={index}
           >
             <div className='text-5xl font-bold text-blue mb-4'>${price}</div>

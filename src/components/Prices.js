@@ -50,9 +50,9 @@ const Prices = () => {
                 <div
                   className={`${
                     index === idx
-                      ? 'border-b-4 border-orange transition-all'
+                      ? 'border-b-4 border-orange transition-all after:w-5 after:h-5 after:bg-triangle after:bg-no-repeat after:block after:left-[130px] after:absolute after:-bottom-6 relative'
                       : 'border-b-4 border-transparent'
-                  } pb-4 mb-12 `}
+                  } pb-4 mb-12`}
                 >
                   <div className='hidden lg:block capitalize'>
                     {dogCategory}
