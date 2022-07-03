@@ -9,6 +9,7 @@ import { CgMenuRight } from 'react-icons/cg';
 // import components
 import Program from './Program';
 import Nav from './Nav';
+import NavMobile from './NavMobile';
 
 const Header = () => {
   const [bg, setBg] = useState(false);
@@ -47,10 +48,10 @@ const Header = () => {
         {/* nav mobile */}
         <div
           className={`${
-            navMobile ? 'max-h-44' : 'max-h-0'
-          } fixed w-full bg-yellow top-[78px] left-0 h-full overflow-hidden transition-all`}
+            navMobile ? 'max-h-[260px]' : 'max-h-0'
+          } fixed w-full bg-yellow shadow-lg top-[78px] left-0 h-full overflow-hidden transition-all`}
         >
-          nav mobile
+          <NavMobile />
         </div>
       </div>
     </header>
