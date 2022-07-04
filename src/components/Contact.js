@@ -9,7 +9,7 @@ const Contact = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row justify-around'>
           {/* image */}
-          <div className='order-1 lg:-order-1 lg:mt-6'>
+          <div className='order-1 lg:-order-1 lg:mt-16'>
             <img className='-mb-[12px]' src={DogImg} alt='' />
           </div>
           {/* text */}
