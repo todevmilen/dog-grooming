@@ -1,12 +1,13 @@
 // import hero slider images
 import HeroSlideImage1 from "./assets/img/dogs/dog-slide-1.png";
-import HeroSlideImage2 from "./assets/img/dogs/dog-slide-2.png";
+import HeroSlideImage2 from "./assets/img/dogs/logo2-modified.png";
 import HeroSlideImage3 from "./assets/img/dogs/dog-slide-3.png";
 // import dog category images
 import DogCateg1 from "./assets/img/dogs/dog-categ-1.png";
 import DogCateg2 from "./assets/img/dogs/dog-categ-2.png";
 import DogCateg3 from "./assets/img/dogs/dog-categ-3.png";
 import DogCateg4 from "./assets/img/dogs/dog-categ-4.png";
+import logo2 from "./assets/img/dogs/logo2.jpeg";
 // import social icons
 import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
 
