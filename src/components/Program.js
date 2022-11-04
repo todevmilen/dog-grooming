@@ -13,12 +13,12 @@ const Program = () => {
           alt=''
         />
         <div className='lg:text-[23px] text-blue font-extrabold'>
-          + 1 000 10 84 000
+          + 359 897 590 266
         </div>
       </div>
       <div className='text-sm'>
         <div className='hidden lg:flex'>
-          Opening Hours: Mon - Sun: 10am - 6pm
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Пон - Пет: 09:30 - 18:30
         </div>
         <div className='lg:hidden text-right'>Mon - Sun: 10am - 6pm</div>
       </div>

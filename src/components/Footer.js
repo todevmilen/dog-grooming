@@ -20,7 +20,7 @@ const Footer = () => {
           <div className='flex gap-x-4'>
             {social.map((item, index) => {
               return (
-                <a href={item.href} key={index}>
+                <a href={item.href} key={index} target='_blank'>
                   <div className='bg-[#fe8d71a9] hover:bg-[#FE8D71] w-10 h-10 rounded-full flex justify-center items-center transition'>
                     <div className='text-2xl'>{item.icon}</div>
                   </div>

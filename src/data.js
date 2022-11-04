@@ -8,34 +8,30 @@ import DogCateg2 from './assets/img/dogs/dog-categ-2.png';
 import DogCateg3 from './assets/img/dogs/dog-categ-3.png';
 import DogCateg4 from './assets/img/dogs/dog-categ-4.png';
 // import social icons
-import { AiFillYoutube, AiFillInstagram, AiFillGithub } from 'react-icons/ai';
+import { AiFillFacebook, AiFillInstagram } from 'react-icons/ai';
 
 export const navigation = [
   {
-    name: 'home',
+    name: 'начало',
     href: '#',
   },
   {
-    name: 'prices',
-    href: '#',
+    name: 'цени',
+    href: '#prices',
   },
   {
-    name: 'contact',
-    href: '#',
-  },
-  {
-    name: 'get an appointment',
-    href: '#',
+    name: 'контакти',
+    href: '#contact',
   },
 ];
 
 export const heroSlider = [
   {
     id: 1,
-    title: 'We take care of your pet.',
+    title: 'Golden Pets  Груминг и Спа',
     image: <HeroSlideImage1 />,
     subtitle:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.',
+      'С грижа за вашия домашен любимец',
     buttonText: 'Get an appointment',
   },
   {
@@ -60,7 +56,7 @@ export const bundleData = [
   {
     id: 1,
     image: <DogCateg1 />,
-    name: 'small',
+    name: 'Малко',
     dogCategory: '1 - 9 kg',
     services: [
       {
@@ -96,7 +92,7 @@ export const bundleData = [
   },
   {
     id: 2,
-    name: 'medium',
+    name: 'Средно',
     image: <DogCateg2 />,
     dogCategory: '10 - 19 kg',
     services: [
@@ -133,7 +129,7 @@ export const bundleData = [
   },
   {
     id: 3,
-    name: 'big',
+    name: 'Голямо',
     image: <DogCateg3 />,
     dogCategory: '20 - 29 kg',
     services: [
@@ -170,7 +166,7 @@ export const bundleData = [
   },
   {
     id: 4,
-    name: 'super',
+    name: 'Супер',
     image: <DogCateg4 />,
     dogCategory: '30 - 39 kg',
     services: [
@@ -209,15 +205,11 @@ export const bundleData = [
 
 export const social = [
   {
-    icon: <AiFillYoutube />,
-    href: '#',
+    icon: <AiFillFacebook />,
+    href: 'https://www.facebook.com/profile.php?id=100083217377875',
   },
   {
     icon: <AiFillInstagram />,
-    href: '#',
-  },
-  {
-    icon: <AiFillGithub />,
-    href: '#',
+    href: 'https://www.instagram.com/golden_pets.grooming/',
   },
 ];

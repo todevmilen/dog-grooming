@@ -23,9 +23,8 @@ const Header = () => {
 
   return (
     <header
-      className={`${
-        bg ? 'bg-white shadow-md py-3' : 'bg-none py-5'
-      } fixed w-full right-0 left-0 z-10 transition-all duration-300`}
+      className={`${bg ? 'bg-white shadow-md py-3' : 'bg-none py-5'
+        } fixed w-full right-0 left-0 z-10 transition-all duration-300`}
     >
       <div className='container mx-auto flex justify-between items-center'>
         {/* logo */}
@@ -47,9 +46,8 @@ const Header = () => {
         </div>
         {/* nav mobile */}
         <div
-          className={`${
-            navMobile ? 'max-h-[260px]' : 'max-h-0'
-          } fixed w-full bg-yellow shadow-lg top-[78px] left-0 h-full overflow-hidden transition-all`}
+          className={`${navMobile ? 'max-h-[260px]' : 'max-h-0'
+            } fixed w-full bg-yellow shadow-lg top-[78px] left-0 h-full overflow-hidden transition-all`}
         >
           <NavMobile />
         </div>

@@ -22,12 +22,12 @@ const Prices = () => {
   };
 
   return (
-    <section className='py-12 lg:py-24'>
+    <section id='prices' className='py-12 lg:py-24'>
       <div className='container mx-auto'>
         <div className='text-center mb-20'>
-          <div className='text-orange font-semibold mb-3'>Our Prices</div>
-          <h2 className='h2 mb-3'>How Big Your Dog is?</h2>
-          <p className='text-lg text-blue'>Choose your dog category</p>
+          <div className='text-orange font-semibold mb-3'>Нашите цени</div>
+          <h2 className='h2 mb-3'>Колко голямо е кучето ?</h2>
+          <p className='text-lg text-blue'>Изберете вашата категория куче</p>
         </div>
         {/* bundles */}
         <div className='grid grid-cols-4 gap-4 lg:gap-[30px]'>
@@ -52,11 +52,10 @@ const Prices = () => {
                   {name}
                 </h3>
                 <div
-                  className={`${
-                    index === idx
-                      ? 'border-b-4 border-orange transition-all after:lg:w-5 after:lg:h-5 after:lg:bg-triangle after:lg:bg-no-repeat after:lg:block after:lg:left-[130px] after:lg:absolute after:lg:-bottom-6 relative'
-                      : 'border-b-4 border-transparent'
-                  } pb-4 mb-12`}
+                  className={`${index === idx
+                    ? 'border-b-4 border-orange transition-all after:lg:w-5 after:lg:h-5 after:lg:bg-triangle after:lg:bg-no-repeat after:lg:block after:lg:left-[130px] after:lg:absolute after:lg:-bottom-6 relative'
+                    : 'border-b-4 border-transparent'
+                    } pb-4 mb-12`}
                 >
                   <div className='hidden lg:block capitalize'>
                     {dogCategory}
