@@ -1,54 +1,43 @@
 // import hero slider images
-import HeroSlideImage1 from './assets/img/dogs/dog-slide-1.png';
-import HeroSlideImage2 from './assets/img/dogs/dog-slide-2.png';
-import HeroSlideImage3 from './assets/img/dogs/dog-slide-3.png';
+import HeroSlideImage1 from "./assets/img/dogs/dog-slide-1.png";
+import HeroSlideImage2 from "./assets/img/dogs/dog-slide-2.png";
+import HeroSlideImage3 from "./assets/img/dogs/dog-slide-3.png";
 // import dog category images
-import DogCateg1 from './assets/img/dogs/dog-categ-1.png';
-import DogCateg2 from './assets/img/dogs/dog-categ-2.png';
-import DogCateg3 from './assets/img/dogs/dog-categ-3.png';
-import DogCateg4 from './assets/img/dogs/dog-categ-4.png';
+import DogCateg1 from "./assets/img/dogs/dog-categ-1.png";
+import DogCateg2 from "./assets/img/dogs/dog-categ-2.png";
+import DogCateg3 from "./assets/img/dogs/dog-categ-3.png";
+import DogCateg4 from "./assets/img/dogs/dog-categ-4.png";
 // import social icons
-import { AiFillFacebook, AiFillInstagram } from 'react-icons/ai';
+import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
 
 export const navigation = [
   {
-    name: 'начало',
-    href: '#',
+    name: "начало",
+    href: "#",
   },
   {
-    name: 'цени',
-    href: '#prices',
+    name: "цени",
+    href: "#prices",
   },
   {
-    name: 'контакти',
-    href: '#contact',
+    name: "контакти",
+    href: "#contact",
   },
 ];
 
 export const heroSlider = [
   {
     id: 1,
-    title: 'Golden Pets  Груминг и Спа',
+    title: "Golden Pets  Груминг и Спа",
     image: <HeroSlideImage1 />,
-    subtitle:
-      'С грижа за вашия домашен любимец',
-    buttonText: 'Get an appointment',
+    subtitle: "За здравето и красотата на вашия домашен любимец",
+    buttonText: "Get an appointment",
   },
   {
     id: 2,
-    title: 'Lorem ipsum dolor sit.',
+    title: "С грижа и любов към вашия любимец",
     image: <HeroSlideImage2 />,
-    subtitle:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.',
-    buttonText: 'Get an appointment',
-  },
-  {
-    id: 3,
-    title: 'Nunc odio in et, lectus sit.',
-    image: <HeroSlideImage3 />,
-    subtitle:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.',
-    buttonText: 'Get an appointment',
+    buttonText: "Get an appointment",
   },
 ];
 
@@ -56,147 +45,129 @@ export const bundleData = [
   {
     id: 1,
     image: <DogCateg1 />,
-    name: 'Малко',
-    dogCategory: '1 - 9 kg',
+    name: "Малко",
+    dogCategory: "1 - 5 kg",
     services: [
       {
-        name: 'smart',
-        price: 20,
-        list: ['wash', 'ears cleaning', 'nail cut', 'perfumed'],
-      },
-      {
-        name: 'premium',
-        price: 40,
+        name: "цялостен груминг за късокосмести",
+        price: "40 лв",
         list: [
-          'all smart services',
-          'service 1',
-          'service 2',
-          'service 3',
-          'service 4',
+          "Подстригване",
+          "Оформяне",
+          "Къпане",
+          "Сушене",
+          "Подрязване на нокти",
+          "Почистване на уши",
         ],
       },
       {
-        name: 'royal',
-        price: 60,
+        name: "цялостен груминг за всички породи - без късокосмести",
+        price: "45 лв",
         list: [
-          'all premium services',
-          'service 1',
-          'service 2',
-          'service 3',
-          'service 4',
-          'service 5',
-          'service 6',
+          "Подстригване",
+          "Оформяне",
+          "Къпане",
+          "Сушене",
+          "Подрязване на нокти",
+          "Почистване на уши",
+        ],
+      },
+      {
+        name: "Допълнителни услуги",
+        price: " ",
+        list: [
+          "Почистване на уши: 7 лв",
+          "Подрязване на нокти: 7 лв",
+          "Дентална хигиена: 60 лв",
+          "Личен накрайник: 25 лв",
+          "Озонотерапия: 50 лв",
+          "Озонотерапия към основен груминг: 25лв",
         ],
       },
     ],
   },
   {
     id: 2,
-    name: 'Средно',
+    name: "Средно",
     image: <DogCateg2 />,
-    dogCategory: '10 - 19 kg',
+    dogCategory: "5 - 10 kg",
     services: [
       {
-        name: 'smart',
-        price: 80,
-        list: ['wash', 'ears cleaning', 'nail cut', 'perfumed'],
-      },
-      {
-        name: 'premium',
-        price: 100,
+        name: "цялостен груминг за късокосмести",
+        price: "50 лв",
         list: [
-          'all smart services',
-          'service 1',
-          'service 2',
-          'service 3',
-          'service 4',
+          "Подстригване",
+          "Оформяне",
+          "Къпане",
+          "Сушене",
+          "Подрязване на нокти",
+          "Почистване на уши",
         ],
       },
       {
-        name: 'royal',
-        price: 120,
+        name: "цялостен груминг за всички породи - без късокосмести",
+        price: "55 лв",
         list: [
-          'all premium services',
-          'service 1',
-          'service 2',
-          'service 3',
-          'service 4',
-          'service 5',
-          'service 6',
+          "Подстригване",
+          "Оформяне",
+          "Къпане",
+          "Сушене",
+          "Подрязване на нокти",
+          "Почистване на уши",
+        ],
+      },
+      {
+        name: "Допълнителни услуги",
+        list: [
+          "Почистване на уши: 7 лв",
+          "Подрязване на нокти: 7 лв",
+          "Дентална хигиена: 60 лв",
+          "Личен накрайник: 25 лв",
+          "Озонотерапия: 50 лв",
+          "Озонотерапия към основен груминг: 25лв",
         ],
       },
     ],
   },
   {
     id: 3,
-    name: 'Голямо',
+    name: "Голямо",
     image: <DogCateg3 />,
-    dogCategory: '20 - 29 kg',
+    dogCategory: "над 10 kg",
     services: [
       {
-        name: 'smart',
-        price: 140,
-        list: ['wash', 'ears cleaning', 'nail cut', 'perfumed'],
-      },
-      {
-        name: 'premium',
-        price: 160,
+        name: "цялостен груминг за късокосмести",
+        price: "60 лв",
         list: [
-          'all smart services',
-          'service 1',
-          'service 2',
-          'service 3',
-          'service 4',
+          "Подстригване",
+          "Оформяне",
+          "Къпане",
+          "Сушене",
+          "Подрязване на нокти",
+          "Почистване на уши",
         ],
       },
       {
-        name: 'royal',
-        price: 180,
+        name: "цялостен груминг за всички породи - без късокосмести",
+        price: "65 лв",
         list: [
-          'all premium services',
-          'service 1',
-          'service 2',
-          'service 3',
-          'service 4',
-          'service 5',
-          'service 6',
-        ],
-      },
-    ],
-  },
-  {
-    id: 4,
-    name: 'Супер',
-    image: <DogCateg4 />,
-    dogCategory: '30 - 39 kg',
-    services: [
-      {
-        name: 'smart',
-        price: 200,
-        list: ['wash', 'ears cleaning', 'nail cut', 'perfumed'],
-      },
-      {
-        name: 'premium',
-        price: 210,
-        list: [
-          'all smart services',
-          'service 1',
-          'service 2',
-          'service 3',
-          'service 4',
+          "Подстригване",
+          "Оформяне",
+          "Къпане",
+          "Сушене",
+          "Подрязване на нокти",
+          "Почистване на уши",
         ],
       },
       {
-        name: 'royal',
-        price: 220,
+        name: "Допълнителни услуги",
         list: [
-          'all premium services',
-          'service 1',
-          'service 2',
-          'service 3',
-          'service 4',
-          'service 5',
-          'service 6',
+          "Почистване на уши: 7 лв",
+          "Подрязване на нокти: 7 лв",
+          "Дентална хигиена: 60 лв",
+          "Личен накрайник: 25 лв",
+          "Озонотерапия: 50 лв",
+          "Озонотерапия към основен груминг: 25лв",
         ],
       },
     ],
@@ -206,10 +177,10 @@ export const bundleData = [
 export const social = [
   {
     icon: <AiFillFacebook />,
-    href: 'https://www.facebook.com/profile.php?id=100083217377875',
+    href: "https://www.facebook.com/profile.php?id=100083217377875",
   },
   {
     icon: <AiFillInstagram />,
-    href: 'https://www.instagram.com/golden_pets.grooming/',
+    href: "https://www.instagram.com/golden_pets.grooming/",
   },
 ];

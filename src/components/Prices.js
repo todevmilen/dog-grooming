@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
 // import data
-import { bundleData } from '../data';
+import { bundleData } from "../data";
 
 // import components
-import Bundles from './Bundles';
+import Bundles from "./Bundles";
 
 const Prices = () => {
   const [bundles, setBundles] = useState([]);
@@ -22,15 +22,15 @@ const Prices = () => {
   };
 
   return (
-    <section id='prices' className='py-12 lg:py-24'>
-      <div className='container mx-auto'>
-        <div className='text-center mb-20'>
-          <div className='text-orange font-semibold mb-3'>Нашите цени</div>
-          <h2 className='h2 mb-3'>Колко голямо е кучето ?</h2>
-          <p className='text-lg text-blue'>Изберете вашата категория куче</p>
+    <section id="prices" className="py-12 lg:py-24">
+      <div className="container mx-auto">
+        <div className="text-center mb-20">
+          <div className="text-orange font-semibold mb-3">Нашите цени</div>
+          <h2 className="h2 mb-3">Колко голямо е кучето ?</h2>
+          <p className="text-lg text-blue">Изберете вашата категория куче</p>
         </div>
         {/* bundles */}
-        <div className='grid grid-cols-4 gap-4 lg:gap-[30px]'>
+        <div className="grid grid-cols-3 gap-12 lg:gap-[30px]">
           {bundleData.map((bundle, idx) => {
             // destructure bundle
             const { name, image, dogCategory } = bundle;
@@ -43,23 +43,22 @@ const Prices = () => {
                   }
                 }}
                 key={idx}
-                className='cursor-pointer text-center'
+                className="cursor-pointer text-center"
               >
-                <div className='mb-2 lg:mb-8 hover:scale-105 transition-all duration-300'>
-                  <img className='w-full' src={image.type} alt='' />
+                <div className="mb-2 lg:mb-8 hover:scale-105 transition-all duration-300">
+                  <img className="w-full" src={image.type} alt="" />
                 </div>
-                <h3 className='lg:text-2xl capitalize font-semibold text-blue lg:mb-2'>
+                <h3 className="lg:text-2xl capitalize font-semibold text-blue lg:mb-2">
                   {name}
                 </h3>
                 <div
-                  className={`${index === idx
-                    ? 'border-b-4 border-orange transition-all after:lg:w-5 after:lg:h-5 after:lg:bg-triangle after:lg:bg-no-repeat after:lg:block after:lg:left-[130px] after:lg:absolute after:lg:-bottom-6 relative'
-                    : 'border-b-4 border-transparent'
-                    } pb-4 mb-12`}
+                  className={`${
+                    index === idx
+                      ? "border-b-4 border-orange transition-all after:lg:w-5 after:lg:h-5 after:lg:bg-triangle after:lg:bg-no-repeat after:lg:block after:lg:left-[130px] after:lg:absolute after:lg:-bottom-6 relative"
+                      : "border-b-4 border-transparent"
+                  } pb-4 mb-12`}
                 >
-                  <div className='hidden lg:block capitalize'>
-                    {dogCategory}
-                  </div>
+                  <div className="lg:block capitalize">{dogCategory}</div>
                 </div>
               </div>
             );
