@@ -11,16 +11,16 @@ const Bundle = ({ bundles }) => {
         const { name, price, list } = bundle;
         return (
           <div
-            className="w-full lg:max-w-1/3 bg-white shadow-primary text-center h-[560px] rounded-[60px] py-12 px-8"
+            className="w-full lg:max-w-1/3 bg-white shadow-primary text-center h-[560px] rounded-[60px] py-12 px-3"
             key={index}
           >
             <div className="text-5xl font-bold text-blue mb-4">{price}</div>
             <div className="capitalize mb-12 text-blue text-sm">{name}</div>
-            <div className="flex flex-col gap-y-4 max-w-[230px] mx-auto">
+            <div className="flex flex-col gap-y-4 max-w-[380px] mx-auto">
               {list.map((item, index) => {
                 return (
-                  <div className="flex items-center gap-x-2" key={index}>
-                    <BsCheckCircleFill className="text-orange text-lg" />
+                  <div className="flex gap-x-2" key={index}>
+                    <BsCheckCircleFill className="text-orange text-lg0" />
                     <div className="whitespace-nowrap text-sm">{item}</div>
                   </div>
                 );

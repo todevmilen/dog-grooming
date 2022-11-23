@@ -24,6 +24,10 @@ const Program = () => {
           Пон - Пет: 09:30 - 18:30
         </div>
         <div className="lg:hidden text-right">Пон - Пет: 09:30 - 18:30</div>
+        <div className="text-xs text-blue">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ул.
+          Братя Свещарови 5, Пловдив
+        </div>
       </div>
     </div>
   );

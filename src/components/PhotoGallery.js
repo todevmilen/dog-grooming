@@ -1,10 +1,9 @@
-import puddle from "../assets/img/dogs/puddle.jpg";
-import doggy from "../assets/img/dogs/doggy.jpg";
 import yorki from "../assets/img/dogs/yorki.jpg";
-import whitedoggo from "../assets/img/dogs/whitedoggo.jpg";
 import pom from "../assets/img/dogs/pom.jpg";
-import yorki2 from "../assets/img/dogs/yorki2.jpg";
-
+import roomPhoto from "../assets/img/dogs/photo4.jpg";
+import photo2 from "../assets/img/dogs/photo2.jpg";
+import photo3 from "../assets/img/dogs/photo3.jpg";
+import photo1 from "../assets/img/dogs/photo1.jpg";
 const PhotoGallery = () => {
   return (
     <section class="overflow-hidden text-gray-700 ">
@@ -15,7 +14,7 @@ const PhotoGallery = () => {
               <img
                 alt="gallery"
                 class="block object-cover object-center w-full h-full rounded-lg"
-                src={puddle}
+                src={roomPhoto}
               />
             </div>
           </div>
@@ -24,7 +23,7 @@ const PhotoGallery = () => {
               <img
                 alt="gallery"
                 class="block object-cover object-center w-full h-full rounded-lg"
-                src={doggy}
+                src={photo2}
               />
             </div>
           </div>
@@ -42,7 +41,7 @@ const PhotoGallery = () => {
               <img
                 alt="gallery"
                 class="block object-cover object-center w-full h-full rounded-lg"
-                src={whitedoggo}
+                src={photo3}
               />
             </div>
           </div>
@@ -60,7 +59,7 @@ const PhotoGallery = () => {
               <img
                 alt="gallery"
                 class="block object-cover object-center w-full h-full rounded-lg"
-                src={yorki2}
+                src={photo1}
               />
             </div>
           </div>
