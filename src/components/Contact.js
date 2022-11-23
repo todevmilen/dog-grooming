@@ -15,7 +15,10 @@ const Contact = () => {
           {/* text */}
           <div className="flex flex-col items-center justify-center">
             <div className="text-orange font-semibold mb-3">Информация</div>
-            <div className="text-4xl text-blue font-extrabold">
+            <div
+              className="text-4xl text-blue font-extrabold"
+              onClick={() => window.open("tel:+359897590266")}
+            >
               + 359 897 590 266
             </div>
             <div className="mb-7 text-blue">
